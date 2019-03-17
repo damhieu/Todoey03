@@ -12,6 +12,7 @@
 		0EA78AE5223D3B06003814F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EA78AE3223D3B06003814F3 /* Main.storyboard */; };
 		0EA78AE7223D3B06003814F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EA78AE6223D3B06003814F3 /* Assets.xcassets */; };
 		0EA78AEA223D3B06003814F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EA78AE8223D3B06003814F3 /* LaunchScreen.storyboard */; };
+		0EFB30B2223E64FE00D96DC4 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFB30B1223E64FE00D96DC4 /* Item.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		0EA78AE6223D3B06003814F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0EA78AE9223D3B06003814F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0EA78AEB223D3B06003814F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EFB30B1223E64FE00D96DC4 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +57,46 @@
 			isa = PBXGroup;
 			children = (
 				0EA78ADF223D3B06003814F3 /* AppDelegate.swift */,
-				0EA78AE1223D3B06003814F3 /* TodoListViewController.swift */,
-				0EA78AE3223D3B06003814F3 /* Main.storyboard */,
-				0EA78AE6223D3B06003814F3 /* Assets.xcassets */,
-				0EA78AE8223D3B06003814F3 /* LaunchScreen.storyboard */,
+				0EFB30B4223E653500D96DC4 /* Controllers */,
+				0EFB30B3223E651500D96DC4 /* Data Model */,
+				0EFB30B5223E656900D96DC4 /* Views */,
+				0EFB30B6223E658A00D96DC4 /* Supporting Files */,
 				0EA78AEB223D3B06003814F3 /* Info.plist */,
 			);
 			path = Todoey03;
+			sourceTree = "<group>";
+		};
+		0EFB30B3223E651500D96DC4 /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				0EFB30B1223E64FE00D96DC4 /* Item.swift */,
+			);
+			path = "Data Model";
+			sourceTree = "<group>";
+		};
+		0EFB30B4223E653500D96DC4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0EA78AE1223D3B06003814F3 /* TodoListViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0EFB30B5223E656900D96DC4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0EA78AE3223D3B06003814F3 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0EFB30B6223E658A00D96DC4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0EA78AE6223D3B06003814F3 /* Assets.xcassets */,
+				0EA78AE8223D3B06003814F3 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0EA78AE2223D3B06003814F3 /* TodoListViewController.swift in Sources */,
+				0EFB30B2223E64FE00D96DC4 /* Item.swift in Sources */,
 				0EA78AE0223D3B06003814F3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
